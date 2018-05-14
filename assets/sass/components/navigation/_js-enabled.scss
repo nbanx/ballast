@@ -1,0 +1,81 @@
+/* ## Navigation JS Styles
+--------------------------------------------- */
+
+@media only screen and (max-width: 1023px) {
+    .js {
+
+        .genesis-nav-menu {
+
+            .sub-menu, .sub-menu a {
+                width: 100%;
+            }
+
+            .menu-item:hover {
+                position: relative;
+            }
+
+            .sub-menu {
+                clear: both;
+                display: none;
+                margin: 0;
+                opacity: 1;
+                padding-left: 15px;
+                position: static;
+                width: 100%;
+                border: none;
+    
+                .sub-menu {
+                    margin: 0;
+                }
+            }
+
+            .menu-item > a:focus {
+                a:focus ul.sub-menu,
+                a:focus ul.sub-menu .sub-menu {
+                    left: 0;
+                    margin-left: 0;   
+                }
+            }
+    
+            > .menu-item-has-children > a:after {
+                content: none;
+            }
+        }
+
+        .nav-primary, .site-header {
+
+            .genesis-nav-menu .menu-item {
+                display: block;
+                float: none;
+                margin: 1px 0;
+                position: relative;
+                text-align: left;    
+
+                a {
+                    border: none;
+                    padding: 12px 0;
+                    width: 100%;                
+                }        
+            }
+        }
+
+        nav button:hover,
+        .menu-toggle:hover,
+        .nav-primary,
+        nav button:focus,
+        .menu-toggle:focus {
+            background-color: $jsNav_backgroundColor;            
+        }
+
+        nav button:hover,
+        .menu-toggle:hover,
+        .nav-primary {
+            color: $jsNav_hoverColor;
+        }
+
+        nav button:focus,
+        .menu-toggle:focus {
+            color: $jsNav_focusColor;
+        }
+    }
+}
