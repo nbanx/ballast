@@ -1,0 +1,12 @@
+/* ## Widget Title
+--------------------------------------------- */
+
+.sidebar .widget-title a {
+    color: $widgetTitle_color;
+    text-decoration: none;
+}
+
+.widget-title {
+    font-size: rem( $widgetTitle_fontSize );
+    margin-bottom: 20px;
+}

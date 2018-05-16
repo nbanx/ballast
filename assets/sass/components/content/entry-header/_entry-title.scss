@@ -1,0 +1,16 @@
+/* ## Header Entry Title
+--------------------------------------------- */
+
+.entry-title {
+    font-size: rem( $entryTitle_fontSize );
+    
+    a {
+        color: $entryTitle_color;
+        text-decoration: none;
+        
+        &:hover,
+        &:focus {
+            color: $entryHover_color;
+        }
+    }
+}
