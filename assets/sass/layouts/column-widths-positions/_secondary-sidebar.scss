@@ -2,9 +2,10 @@
 
 .sidebar-secondary {
 	float: left;
-	width: 180px;
+	width: $secondarySidebar_width;
+
+	.content-sidebar-sidebar & {
+		float: right;
+	}	
 }
 
-.content-sidebar-sidebar .sidebar-secondary {
-	float: right;
-}

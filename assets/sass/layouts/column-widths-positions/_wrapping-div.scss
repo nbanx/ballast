@@ -1,16 +1,27 @@
 /* ### Wrapping div */
 
-.content-sidebar-sidebar .content-sidebar-wrap,
-.sidebar-content-sidebar .content-sidebar-wrap,
-.sidebar-sidebar-content .content-sidebar-wrap {
-	width: 1060px;
-}
+.content-sidebar-wrap {
 
-.content-sidebar-sidebar .content-sidebar-wrap {
-	float: left;
-}
+	.content-sidebar-sidebar &,
+	.sidebar-content-sidebar &,
+	.sidebar-sidebar-content & {
+		width: $contentSidebarWrap_width;
 
-.sidebar-content-sidebar .content-sidebar-wrap,
-.sidebar-sidebar-content .content-sidebar-wrap {
-	float: right;
+		@media only screen and (max-width: $largerScreen) {
+			width: $contentSidebarWrap_widthLargerScreen;
+		}
+
+		@media only screen and (max-width: $largeScreen) {
+			width: $contentSidebarWrap_widthLargeScreen;
+		}
+	}
+
+	.content-sidebar-sidebar & {
+		float: left;
+	}
+
+	.sidebar-content-sidebar &,
+	.sidebar-sidebar-content & {
+		float: right;
+	}
 }

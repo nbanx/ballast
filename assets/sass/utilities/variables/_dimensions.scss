@@ -1,0 +1,47 @@
+// Width Variables
+
+$baseWidth: 1280;
+$gutterWidth: 40px;
+
+// Device Screen Sizes
+
+$smallestScreen: 320px;
+$smallerScreen: 480px;
+$smallScreen: 860px;
+$mediumScreen: 1023px;
+$largeScreen: 1200px;
+$largerScreen: 1340px;
+$hugeScreen: 1600px;
+
+// Max Widths
+$maxWidth: $baseWidth + px;
+$maxWidth_largerScreen: 1140px;
+$maxWidth_largeScreen: 960px;
+$maxWidth_mediumScreen: 800px;
+
+$landingPage_maxWidth: 800px;
+
+// Content Widths
+$content_width: 880px;
+$content_widthLargerScreen: 800px;
+$content_widthLargeScreen: 620px;
+$contentBoth_sidebarsWidth: 660px;
+$contentBoth_sidebarsWidthLargerScreen: 580px;
+$contentBoth_sidebarsWidthLargeScreen: 400px;
+
+// Sidebars
+$primarySidebar_width: 360px;
+$primarySidebar_widthLargerScreen: 300px;
+$secondarySidebar_width: 180px;
+
+$contentSidebarWrap_width: 1060px;
+$contentSidebarWrap_widthLargerScreen: 920px;
+$contentSidebarWrap_widthLargeScreen: 740px;
+
+
+// Header Widths
+$titleArea_width: 300px;
+$headerRight_width: 800px;
+
+// Footer Widths
+$footerWidgets_width: 380px;
