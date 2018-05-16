@@ -1,10 +1,5 @@
 /* ## Widget Base
 --------------------------------------------- */
-.widget {
-	margin-bottom: 40px;
-	word-wrap: break-word;
-}
-
 .widget p:last-child,
 .widget ul > li:last-of-type,
 .widget-area .widget:last-of-type {
@@ -12,6 +7,9 @@
 }
 
 .widget {
+
+	margin-bottom: 40px;
+	word-wrap: break-word;
 
 	ul > li {
 	margin-bottom: 10px;
@@ -33,5 +31,12 @@
 		border: 0;
 		margin: 0 0 0 30px;
 		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 860) {
+	.sidebar .widget {
+		padding: 30px;
+		margin-bottom: 5%;
 	}
 }
