@@ -1,7 +1,7 @@
 /* ## Site Title
 --------------------------------------------- */
 .site-title {
-	font-size: rem( $siteTitle_fontSize );
+	@include rem( font-size, $siteTitle_fontSize );
 	font-weight: 700;
 	line-height: 1.2;
 

@@ -14,25 +14,25 @@ h6 {
 }
 
 h1 {
-	font-size: rem( $h1_fontSize );
+	@include rem( font-size, $h1_fontSize );
 }
 
 h2 {
-	font-size: rem( $h2_fontSize );
+	@include rem( font-size, $h2_fontSize );
 }
 
 h3 {
-	font-size: rem( $h3_fontSize );
+	@include rem( font-size, $h3_fontSize );
 }
 
 h4 {
-	font-size: rem( $h4_fontSize );
+	@include rem( font-size, $h4_fontSize );
 }
 
 h5 {
-	font-size: rem( $h5_fontSize );
+	@include rem( font-size, $h5_fontSize );
 }
 
 h6 {
-	font-size: rem( $h6_fontSize );
+	@include rem( font-size, $h6_fontSize );
 }

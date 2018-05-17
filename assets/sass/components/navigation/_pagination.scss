@@ -19,7 +19,7 @@
 	li {
 		display: inline;
 
-		@media only screen and (max-width: $smallScree) {
+		@media only screen and (max-width: $smallScreen) {
 			
 			a {
 				margin-bottom: 4px;
@@ -32,7 +32,7 @@
 		color: $archivePagination_color;
 		cursor: pointer;
 		display: inline-block;
-		font-size: rem( $archive_fontSize );
+		@include rem( font-size, $archive_fontSize );
 		font-weight: 600;
 		padding: 8px 12px;
 		text-decoration: none;

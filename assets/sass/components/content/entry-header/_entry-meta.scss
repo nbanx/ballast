@@ -9,7 +9,7 @@
 .entry-header {
     .entry-meta {
         margin-bottom: 24px;
-        font-size: rem( $headerEntry_meta );
+        @include rem( font-size, $headerEntry_meta );
         margin-bottom: 0;
     }
 }

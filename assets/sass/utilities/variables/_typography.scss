@@ -5,71 +5,73 @@ $baseFontFamily: 'Source Sans Pro', sans-serif;
 $headingsFontFamily: 'Source Sans Pro', sans-serif;
 
 // Base
-$base_fontSize: 20;
-$base_fontSize_smallScreen: 18;
+$base_fontSize: 20px;
+$base_fontSize_smallScreen: 18px;
 $html_fontSize: 62.5%;
+$rem-fallback: true;
+$rem-baseline: 10px;
 
 // Headings
-$h1_fontSize: 36;
-$h2_fontSize: 30;
-$h3_fontSize: 24;
-$h4_fontSize: 20;
-$h5_fontSize: 18;
-$h6_fontSize: 16;
+$h1_fontSize: 36px;
+$h2_fontSize: 30px;
+$h3_fontSize: 24px;
+$h4_fontSize: 20px;
+$h5_fontSize: 18px;
+$h6_fontSize: 16px;
 
 // Navigation
-$nav_fontSize: 16;
-$subMenu_linkFontSize: 14;
+$nav_fontSize: 16px;
+$subMenu_linkFontSize: 14px;
 
 //Archive
-$archive_fontSize: 16;
+$archive_fontSize: 16px;
 
 // Header
-$siteTitle_fontSize: 30;
-$siteDescription_fontSize: 16;
+$siteTitle_fontSize: 30px;
+$siteDescription_fontSize: 16px;
 
 // Footer
-$siteFooter_fontSize: 16;
-$footerWidget_fontSize: 18;
+$siteFooter_fontSize: 16px;
+$footerWidget_fontSize: 18px;
 
 // Entry Content
-$headerEntry_meta: 16;
-$footerEntry_meta: 16;
-$entryTitle_fontSize: 36;
+$headerEntry_meta: 16px;
+$footerEntry_meta: 16px;
+$entryTitle_fontSize: 36px;
 
 // Widget Title 
-$widgetTitle_fontSize: 18;
-$widgetTitle_featuredContent: 20;
+$widgetTitle_fontSize: 18px;
+$widgetTitle_featuredContent: 20px;
 
 // Comments
-$entryComment_fontSize: 16;
+$entryComment_fontSize: 16px;
 
 // Navigation 
-$eNews_fontSize: 16;
+$eNews_fontSize: 16px;
 
 // Breadcrumb
-$breadCrumb_fontSize: 16;
+$breadCrumb_fontSize: 16px;
 
 // Author Box
-$authorBox_fontSize: 18;
-$authorBox_title: 20;
+$authorBox_fontSize: 18px;
+$authorBox_title: 20px;
 
 // After Entry
-$afterEntry_fontSize: 18;
+$afterEntry_fontSize: 18px;
 
 // Archive 
-$archiveDescription_fontSize: 18;
-$archiveDescription_title: 20;
-$archive_title: 20;
+$archiveDescription_fontSize: 18px;
+$archiveDescription_title: 20px;
+$archive_title: 20px;
 
 // Blockquote
-$blockQuote_fontSize: 30;
+$blockQuote_fontSize: 30px;
 
 // Forms
-$input_fontSize: 18;
+$input_fontSize: 18px;
 
 // Button
-$button_fontSize: 16;
+$button_fontSize: 16px;
 
 // Sidebar
-$sidebar_fontSize: 16;
+$sidebar_fontSize: 16px;

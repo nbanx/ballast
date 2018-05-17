@@ -3,7 +3,7 @@
 
 .after-entry {
 	background-color: $afterEntry_backgroundColor;
-	font-size: rem( $afterEntry_fontSize );
+	@include rem( font-size, $afterEntry_fontSize );
 	margin-bottom: 40px;
 	padding: 60px;
 	

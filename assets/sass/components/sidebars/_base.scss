@@ -1,7 +1,7 @@
 /* ## Sidebars Base
 --------------------------------------------- */
 .sidebar {
-	font-size: rem( $sidebar_fontSize );
+	@include rem( font-size, $sidebar_fontSize );
 	margin-bottom: 40px;
 }
 

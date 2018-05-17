@@ -5,7 +5,7 @@
 .entry-comments,
 .entry-pings {
 	background-color: $comment_backgroundColor;
-	font-size: rem( $entryComment_fontSize );
+	@include rem( font-size, $entryComment_fontSize );
 	margin-bottom: 40px;
 
 	@media only screen and (max-width: $smallScreen) {

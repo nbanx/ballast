@@ -3,7 +3,7 @@
 
 .sidebar {
     .widget-title {
-        font-size: rem( $widgetTitle_fontSize );
+        @include rem( font-size, $widgetTitle_fontSize );
         margin-bottom: 20px;
         a {
             color: $widgetTitle_color;

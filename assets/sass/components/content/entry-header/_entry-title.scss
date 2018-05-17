@@ -2,7 +2,7 @@
 --------------------------------------------- */
 
 .entry-title {
-    font-size: rem( $entryTitle_fontSize );
+    @include rem( font-size, $entryTitle_fontSize );
     
     a {
         color: $entryTitle_color;
