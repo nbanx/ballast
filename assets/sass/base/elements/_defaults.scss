@@ -2,24 +2,31 @@
 --------------------------------------------- */
 
 html {
-	font-size: 62.5%; /* 10px browser default */
+	font-size: $html_fontSize; /* 10px browser default */
 }
 
 /* Chrome fix */
-body > div {
-	font-size: 2rem;
-}
-
 body {
-	background-color: #eee;
-	color: #333;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
-	font-size: 2rem;
+	background-color: $body_backgroundColor;
+	color: $body_fontColor;
+	font-family: $baseFontFamily;
+	font-size: rem( $base_fontSize );
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
 	line-height: 1.625;
 	margin: 0;
+
+	@media only screen and (max-width: $smallScreen) {
+		font-size: rem( $base_fontSize_smallScreen );
+	}
+
+	> div {
+		font-size: $base_fontSize;
+
+		@media only screen and (max-width: $smallScreen) {
+			font-size: rem( $base_fontSize_smallScreen );
+		}
+	}
 }
 
 a,
@@ -31,22 +38,18 @@ input[type="submit"],
 textarea:focus,
 .button,
 .gallery img {
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition:    all 0.1s ease-in-out;
-	-ms-transition:     all 0.1s ease-in-out;
-	-o-transition:      all 0.1s ease-in-out;
-	transition:         all 0.1s ease-in-out;
+	@include transition( all 0.1s ease-in-out );
 }
 
 a {
-	color: #c3251d;
+	color: $link_color;
 	text-decoration: underline;
-}
 
-a:hover,
-a:focus {
-	color: #333;
-	text-decoration: none;
+	&:hover,
+	&:focus {
+		color: $link_hoverColor;
+		text-decoration: none;
+	}
 }
 
 p {
@@ -57,7 +60,7 @@ p {
 hr {
 	border: 0;
 	border-collapse: collapse;
-	border-top: 1px solid #eee;
+	border-top: 1px solid $hr_borderColor;
 	clear: both;
 	margin: 1em 0;
 }

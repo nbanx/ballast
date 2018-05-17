@@ -1,5 +1,22 @@
 // Typography Variables
 
+// Font Families
+$baseFontFamily: 'Source Sans Pro', sans-serif;
+$headingsFontFamily: 'Source Sans Pro', sans-serif;
+
+// Base
+$base_fontSize: 20;
+$base_fontSize_smallScreen: 18;
+$html_fontSize: 62.5%;
+
+// Headings
+$h1_fontSize: 36;
+$h2_fontSize: 30;
+$h3_fontSize: 24;
+$h4_fontSize: 20;
+$h5_fontSize: 18;
+$h6_fontSize: 16;
+
 // Navigation
 $nav_fontSize: 16;
 $subMenu_linkFontSize: 14;
@@ -29,3 +46,27 @@ $entryComment_fontSize: 16;
 
 // Navigation 
 $eNews_fontSize: 16;
+
+// Breadcrumb
+$breadCrumb_fontSize: 16;
+
+// Author Box
+$authorBox_fontSize: 18;
+$authorBox_title: 20;
+
+// After Entry
+$afterEntry_fontSize: 18;
+
+// Archive 
+$archiveDescription_fontSize: 18;
+$archiveDescription_title: 20;
+$archive_title: 20;
+
+// Blockquote
+$blockQuote_fontSize: 30;
+
+// Forms
+$input_fontSize: 18;
+
+// Button
+$button_fontSize: 16;
