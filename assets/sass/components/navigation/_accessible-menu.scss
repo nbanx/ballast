@@ -71,6 +71,14 @@
 			@include transform( translate(0, 0) );
 		}
 
+		&:after,
+		&.activated:after {
+			content: "Menu";
+			font-style: normal;
+			position: relative;
+			top: -1px;
+		}
+
 		.site-header & {
 			border: 0;
 		}

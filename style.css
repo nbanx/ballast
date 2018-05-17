@@ -1656,6 +1656,12 @@ img.alignright {
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+  .menu-toggle:after, .menu-toggle.activated:after {
+    content: "Menu";
+    font-style: normal;
+    position: relative;
+    top: -1px;
+  }
   .site-header .menu-toggle {
     border: 0;
   }
