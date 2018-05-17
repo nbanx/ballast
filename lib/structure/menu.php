@@ -20,7 +20,7 @@ namespace tcaudill\Ballast;
  */
 function unregister_menu_callbacks() {
 	remove_action( 'genesis_after_header', 'genesis_do_subnav' );
-	remove_action('genesis_after_header', 'genesis_do_nav');
+	// remove_action('genesis_after_header', 'genesis_do_nav');
 }
 
 add_filter( 'wp_nav_menu_args', __NAMESPACE__ . '\secondary_menu_args' );
@@ -45,4 +45,4 @@ function secondary_menu_args( array $args ) {
 
 // Add subnav to footer
 // add_action( 'genesis_footer', 'genesis_do_subnav', 5 );
-add_action('genesis_header_right', 'genesis_do_nav');
+// add_action('genesis_header_right', 'genesis_do_nav');

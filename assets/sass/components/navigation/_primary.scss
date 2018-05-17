@@ -4,4 +4,8 @@
 .nav-primary {
 	background-color: $primaryNav_backgroundColor;
 	border-top: 1px solid $primaryNav_borderColor;
+
+	@media only screen and (max-width: $mediumScreen) {
+		display: none;
+	}
 }

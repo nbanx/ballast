@@ -1676,6 +1676,12 @@ img.alignright {
   border-top: 1px solid #eee;
 }
 
+@media only screen and (max-width: 1023px) {
+  .nav-primary {
+    display: none;
+  }
+}
+
 /* ## Pagination
 --------------------------------------------- */
 .pagination {
@@ -1823,7 +1829,7 @@ img.alignright {
   .sidebar-primary,
   .sidebar-secondary,
   .sidebar-sidebar-content .content-sidebar-wrap {
-    width: 100% !important;
+    width: 100%;
   }
 }
 
