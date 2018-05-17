@@ -34,7 +34,7 @@
 	}
 }
 
-@media only screen and (max-width: 860) {
+@media only screen and (max-width: $smallScreen) {
 	.sidebar .widget {
 		padding: 30px;
 		margin-bottom: 5%;

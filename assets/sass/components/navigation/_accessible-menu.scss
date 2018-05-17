@@ -18,7 +18,7 @@
 	display: none;
 	visibility: hidden;
 
-	@media only screen and (max-width: 1023px) {
+	@media only screen and (max-width: $mediumScreen) {
 		border-width: 0;
 		background-color: $menu_toggleBackgroundColor;
 		color: $menu_toggleColor;
@@ -30,7 +30,7 @@
 	}
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: $mediumScreen) {
 
 	.sub-menu-toggle {
 		float: right;

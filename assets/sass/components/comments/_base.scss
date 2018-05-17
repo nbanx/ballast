@@ -8,7 +8,7 @@
 	font-size: rem( $entryComment_fontSize );
 	margin-bottom: 40px;
 
-	@media only screen and (max-width: 860px) {
+	@media only screen and (max-width: $smallScreen) {
 		padding: 30px;
 		margin-bottom: 5%;
 	}
@@ -21,10 +21,6 @@
 
 .entry-comments {
 	padding: 60px;
-
-	@media screen {
-		
-	}
 }
 
 .entry-pings .reply {

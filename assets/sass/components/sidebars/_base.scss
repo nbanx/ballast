@@ -1,12 +1,11 @@
 /* ## Sidebars Base
 --------------------------------------------- */
 .sidebar {
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: rem( $sidebar_fontSize );
 	margin-bottom: 40px;
 }
 
 .sidebar .widget {
-	background-color: #fff;
+	background-color: $sidebar_backgroundColor;
 	padding: 40px;
 }

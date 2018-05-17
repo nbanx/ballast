@@ -13,11 +13,11 @@
 .footer-widgets-3 {
 	width: $footerWidgets_width;
 
-	@media only screen and (max-width: 1200px) {
+	@media only screen and (max-width: $largeScreen) {
 		width: 300px;
 	}
 
-	@media only screen and (max-width: 1023px) {
+	@media only screen and (max-width: $mediumScreen) {
 		width: 100%;
 	}
 }
@@ -25,7 +25,7 @@
 .footer-widgets-1 {
 	margin-right: 70px;
 
-	@media only screen and (max-width: 1200px) {
+	@media only screen and (max-width: $largeScreen) {
 		margin-right: 30px;
 	}
 }
@@ -34,7 +34,7 @@
 .footer-widgets-2 {
 	float: left;
 
-	@media only screen and (max-width: 1023px) {
+	@media only screen and (max-width: $mediumScreen) {
 		margin: 0 auto 40px;
 	}
 }

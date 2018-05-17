@@ -3,7 +3,7 @@
 .search-form {
     overflow: hidden;
 
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $mediumScreen) {
         float: none;
         margin: 16px auto;
     }
