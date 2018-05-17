@@ -834,22 +834,8 @@ img.alignright {
 
 /* ## Column Widths and Positions
 --------------------------------------------- */
-/* ## Genesis eNews Extended
+/* ## Base Layout
 --------------------------------------------- */
-@media only screen and (max-width: 1023px) {
-  .content,
-  .content-sidebar-sidebar .content,
-  .content-sidebar-sidebar .content-sidebar-wrap,
-  .sidebar-content-sidebar .content,
-  .sidebar-content-sidebar .content-sidebar-wrap,
-  .sidebar-primary,
-  .sidebar-secondary,
-  .sidebar-sidebar-content .content,
-  .sidebar-sidebar-content .content-sidebar-wrap {
-    width: 100%;
-  }
-}
-
 /* ### Wrapping div */
 .content-sidebar-sidebar .content-sidebar-wrap,
 .sidebar-content-sidebar .content-sidebar-wrap,
@@ -900,32 +886,46 @@ img.alignright {
   }
 }
 
+@media only screen and (max-width: 1023px) {
+  .content {
+    width: 100%;
+  }
+}
+
 .content-sidebar-sidebar .content,
 .sidebar-content-sidebar .content,
 .sidebar-sidebar-content .content {
   width: 660px;
 }
 
-.content-sidebar .content,
-.content-sidebar-sidebar .content,
-.sidebar-content-sidebar .content {
-  float: left;
-}
-
 @media only screen and (max-width: 1340px) {
-  .content-sidebar .content,
   .content-sidebar-sidebar .content,
-  .sidebar-content-sidebar .content {
+  .sidebar-content-sidebar .content,
+  .sidebar-sidebar-content .content {
     width: 580px;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-  .content-sidebar .content,
   .content-sidebar-sidebar .content,
-  .sidebar-content-sidebar .content {
+  .sidebar-content-sidebar .content,
+  .sidebar-sidebar-content .content {
     width: 400px;
   }
+}
+
+@media only screen and (max-width: 1023px) {
+  .content-sidebar-sidebar .content,
+  .sidebar-content-sidebar .content,
+  .sidebar-sidebar-content .content {
+    width: 100%;
+  }
+}
+
+.content-sidebar .content,
+.content-sidebar-sidebar .content,
+.sidebar-content-sidebar .content {
+  float: left;
 }
 
 .full-width-content .content {
@@ -1815,6 +1815,16 @@ img.alignright {
 .sidebar .widget {
   background-color: #fff;
   padding: 40px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .content-sidebar-sidebar .content-sidebar-wrap,
+  .sidebar-content-sidebar .content-sidebar-wrap,
+  .sidebar-primary,
+  .sidebar-secondary,
+  .sidebar-sidebar-content .content-sidebar-wrap {
+    width: 100% !important;
+  }
 }
 
 /* # Widgets

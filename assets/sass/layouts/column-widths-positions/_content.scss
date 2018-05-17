@@ -12,16 +12,14 @@
 		width: $content_widthLargeScreen;
 	}
 
+	@media only screen and (max-width: $mediumScreen) {
+		width: 100%;
+	}
+
 	.content-sidebar-sidebar &,
 	.sidebar-content-sidebar &,
 	.sidebar-sidebar-content & {
 		width: $contentBoth_sidebarsWidth;
-	}
-
-	.content-sidebar &,
-	.content-sidebar-sidebar &,
-	.sidebar-content-sidebar & {
-		float: left;
 
 		@media only screen and (max-width: $largerScreen) {
 			width: $contentBoth_sidebarsWidthLargerScreen;
@@ -30,6 +28,16 @@
 		@media only screen and (max-width: $largeScreen) {
 			width: $contentBoth_sidebarsWidthLargeScreen;
 		}
+
+		@media only screen and (max-width: $mediumScreen) {
+			width: 100%;
+		}
+	}
+
+	.content-sidebar &,
+	.content-sidebar-sidebar &,
+	.sidebar-content-sidebar & {
+		float: left;
 
 	}
 
