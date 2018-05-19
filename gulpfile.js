@@ -91,7 +91,8 @@ gulp.task('cssminify', function() {
 gulp.task('sass-lint', function() {
     return gulp.src([
         'assets/sass/style.scss',
-        '!assets/sass/base/html5-reset/_normalize.scss'
+        '!assets/sass/base/html5-reset/_normalize.scss',
+        '!assets/sass/base/utilities/animate/_animate.scss'
     ])
     .pipe(sasslint())
     .pipe(sasslint.format())
