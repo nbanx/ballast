@@ -2,11 +2,11 @@
 
     <div class="site-inner site-inner-one">
             
-        <h2>Test Call to Action Hero Title</h2>
+        <h2 class="animated fadeIn">Test Call to Action Hero Title</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur aus.</p>
+        <p class="animated fadeIn">Lorem ipsum dolor sit amet, consectetur aus.</p>
 
-        <a class="button" href="/">Test Button</a>
+        <a class="button animated fadeIn" href="/">Test Button</a>
 
     </div>
 
