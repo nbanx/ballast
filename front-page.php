@@ -43,4 +43,5 @@ function add_body_class_for_front_page( array $body_classes ) {
 	return $body_classes;
 }
 
+
 genesis();
