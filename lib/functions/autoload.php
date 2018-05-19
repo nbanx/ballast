@@ -27,12 +27,12 @@ function load_nonadmin_files() {
         'functions/load-assets.php',
         'functions/markup.php',
         'structure/comments.php',
-        // 'structure/archive.php',
-        // 'structure/footer.php',
+        'structure/archive.php',
+        'structure/footer.php',
         'structure/header.php',
         'structure/menu.php',
         'structure/post.php',
-        // 'structure/sidebar.php',
+        'structure/sidebar.php',
         'components/customizer/customizer.php',
     );
 

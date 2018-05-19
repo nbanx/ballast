@@ -17,7 +17,7 @@ add_action( 'customize_register', __NAMESPACE__ . '\customizer_register' );
 /**
  * Register settings and controls with the Customizer.
  *
- * @since 2.2.3
+ * @since 1.0.0
  * 
  * @param WP_Customize_Manager $wp_customize Customizer object.
  */

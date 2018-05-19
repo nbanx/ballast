@@ -16,7 +16,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\build_the_inline_css_from_cu
 * Checks the settings for the link color, and accent color.
 * If any of these value are set the appropriate CSS is output.
 *
-* @since 2.2.3
+* @since 1.0.0
 */
 function build_the_inline_css_from_customizer_settings() {
 

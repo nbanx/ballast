@@ -10,7 +10,3 @@
  */
 
 namespace tcaudill\Ballast;
-
-return array(
-
-);

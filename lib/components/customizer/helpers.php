@@ -26,7 +26,7 @@ function get_settings_prefix() {
  *
  * Abstracted here since at least two functions use it.
  *
- * @since 2.2.3
+ * @since 1.0.0
  *
  * @return string Hex color code for link color.
  */
@@ -39,7 +39,7 @@ function customizer_get_default_link_color() {
  *
  * Abstracted here since at least two functions use it.
  *
- * @since 2.2.3
+ * @since 1.0.0
  *
  * @return string Hex color code for accent color.
  */
