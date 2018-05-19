@@ -11,10 +11,10 @@
 
 namespace trevorcaudill\Front_Page;
 
-remove_all_actions( 'genesis_entry_footer' );
-remove_action( 'genesis_loop', 'genesis_do_loop' );
+// remove_all_actions( 'genesis_entry_footer' );
+// remove_action( 'genesis_loop', 'genesis_do_loop' );
 
-add_action( 'genesis_after_header', __NAMESPACE__ . '\render_front_page_hero');
+// add_action( 'genesis_after_header', __NAMESPACE__ . '\render_front_page_hero');
 /**
 * Load Chosen Front Page Template
 *
