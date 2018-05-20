@@ -1,7 +1,8 @@
 /* ## Header Base
 --------------------------------------------- */
 .site-header {
-	background-color: $siteHeader_backgroundColor;
+    background-color: $siteHeader_backgroundColor;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
     > .wrap {
        /* padding: 20px 0; */
     } 
