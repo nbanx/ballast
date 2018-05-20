@@ -3,11 +3,31 @@
 
 .ballast-front-page {
 
+    .site-inner {
+        padding-top: 0px;
+    }
+
     .hero-container-one {
+        height: 500px;
+        margin-top: 2px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: url('./assets/images/default-images/front-one-bg.png');
+        background-size: cover;
+        clear: both;
+
+        @media only screen and (max-width: $mediumScreen) {
+            height: 400px;
+        }
+
+        @media only screen and (max-width: $smallScreen) {
+            height: 300px;
+        }
 
         .site-inner-one {
-
             text-align: center;
+            color: white;
         }
     }
 }

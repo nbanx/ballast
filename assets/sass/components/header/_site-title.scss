@@ -2,8 +2,9 @@
 --------------------------------------------- */
 .site-title {
 	@include rem( font-size, $siteTitle_fontSize );
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 1.2;
+	padding-top: 10px;
 
 	a,
 	a:hover,
@@ -11,4 +12,8 @@
 		color: $siteTitle_linkColor;
 		text-decoration: none;
 	}
+}
+
+p.site-title {
+	margin-bottom: 10px;
 }

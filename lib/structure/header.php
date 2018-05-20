@@ -11,3 +11,4 @@
 
 namespace tcaudill\Ballast;
 
+add_filter( 'genesis_attr_site-description', 'genesis_attributes_screen_reader_class' );

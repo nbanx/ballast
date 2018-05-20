@@ -11,10 +11,9 @@
 
 namespace trevorcaudill\Front_Page;
 
-// remove_all_actions( 'genesis_entry_footer' );
-// remove_action( 'genesis_loop', 'genesis_do_loop' );
+remove_action( 'genesis_loop', 'genesis_do_loop' );
 
-// add_action( 'genesis_after_header', __NAMESPACE__ . '\render_front_page_hero');
+add_action( 'genesis_after_header', __NAMESPACE__ . '\render_front_page_hero');
 /**
 * Load Chosen Front Page Template
 *
@@ -42,6 +41,19 @@ function add_body_class_for_front_page( array $body_classes ) {
 
 	return $body_classes;
 }
+
+add_filter( 'genesis_site_title_wrap', __NAMESPACE__ . '\ballast_front_site_title' );
+/**
+* Make site title an h1 for SEO purposes
+*
+* @since 1.1.0
+*
+*/
+function ballast_front_site_title( $wrap ) {
+	return 'h1';
+}
+
+
 
 
 genesis();

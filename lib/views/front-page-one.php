@@ -1,6 +1,6 @@
 <div class="content hero-container-one">
 
-    <div class="site-inner site-inner-one">
+    <div class="site-inner-one">
             
         <h2 class="animated fadeIn">Test Call to Action Hero Title</h2>
 

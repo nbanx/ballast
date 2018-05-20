@@ -2,12 +2,12 @@
 --------------------------------------------- */
 .sidebar {
 	@include rem( font-size, $sidebar_fontSize );
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .sidebar .widget {
 	background-color: $sidebar_backgroundColor;
-	padding: 40px;
+	/* padding: 40px; */
 }
 
 @media only screen and (max-width: $mediumScreen) {
