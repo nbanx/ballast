@@ -2,11 +2,11 @@
 
     <div class="site-inner-one">
             
-        <h2 class="animated fadeIn">Test Call to Action Hero Title</h2>
+        <h2 class="animated fadeIn">Ballast is Built With SASS</h2>
 
-        <p class="animated fadeIn">Lorem ipsum dolor sit amet, consectetur aus.</p>
+        <p class="animated fadeIn">Created on a modular architecture with Gulp as the workhorse.</p>
 
-        <a class="button animated fadeIn" href="/">Test Button</a>
+        <a class="button animated fadeIn" href="/">Learn More</a>
 
     </div>
 

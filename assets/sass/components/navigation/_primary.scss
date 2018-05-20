@@ -3,11 +3,11 @@
 
 .nav-primary {
 	background-color: $primaryNav_backgroundColor;
+	float: right;
 	/* border-top: 1px solid $primaryNav_borderColor; */
 
 	@media only screen and (max-width: $mediumScreen) {
 		display: none;
-		flex: 1 1 100%;
-		order: 3;
+		width: 100%;
 	}
 }

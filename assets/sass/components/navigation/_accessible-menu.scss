@@ -60,9 +60,17 @@
 		border-top: 1px solid $menu_toggleBorderColor;
 		line-height: 20px;
 		position: relative;
+		margin-top: 15px;
 		right: 0;
 		z-index: 1000;
-		width: 100%;
+		width: 50%;
+		text-align: right;
+		
+		@media only screen and (max-width: $smallerScreen) {
+			width: 100%;
+			text-align: center;
+			margin-top: 0px;
+		}
 
 		&:before,
 		&.activated:before {

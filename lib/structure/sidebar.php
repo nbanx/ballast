@@ -10,3 +10,15 @@
  */
 
 namespace tcaudill\Ballast;
+
+/**
+ * Unregister sidebar callbacks.
+ *
+ * @since 1.1.0
+ *
+ * @return void
+ */
+function unregister_sidebar_callbacks() {
+    unregister_sidebar( 'header-right' );
+    unregister_sidebar( 'sidebar-alt' );
+}

@@ -6,17 +6,15 @@
 	padding: 10px 0;
 	width: $titleArea_width;
 
-
 	@media only screen and (max-width: $mediumScreen) {
-		width: 100%;
+		width: 50%;
 
 		.site-header & {
 			text-align: center;
 		}
 	}
 
-	.header-full-width & {
-		float: none;
+	@media only screen and (max-width: $smallerScreen) {
 		width: 100%;
 	}
 }
