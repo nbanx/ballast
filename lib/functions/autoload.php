@@ -33,7 +33,10 @@ function load_nonadmin_files() {
         'structure/menu.php',
         'structure/post.php',
         'structure/sidebar.php',
-        'components/customizer/customizer.php',
+        'woocommerce/woocommerce-setup.php',
+        'woocommerce/woocommerce-output.php',
+        'woocommerce/woocommerce-notice.php',
+        'components/customizer/customizer.php'
     );
 
     load_specified_files( $filenames );

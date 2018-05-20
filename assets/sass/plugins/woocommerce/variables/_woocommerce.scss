@@ -1,0 +1,80 @@
+// // // WooCommerce Variables
+
+$rem-fallback: true;
+$rem-baseline: 10px;
+
+$onSale_backgroundColor: #0073e5;
+$wooCommerce_fullWidth: 1140px;
+
+// Disabled Buttons
+
+$wooDisabled_buttonColor: #000;
+$wooDisabled_textColor: #fff;
+$wooDisabled_buttonHoverColor: #eee;
+$wooDisabled_textHoverColor: #000;
+
+// Shop Page
+
+$shopPage_priceColor: #000;
+$shopPage_hoverColor: #0073e5;
+$edgeFix_fontSize: 16px;
+$edgeFix_backgroundColor: #fff;
+$edgeFix_color: #333;
+$edgeFix_hoverHackgroundColor: #333;
+$edgeFix_hoverColor: #fff;
+
+// Forms
+
+$wooFormButton_backgroundColor: #333;
+$wooFormButton_color: #fff;
+$wooFormButton_hoverBackgroundColor: #0073e5;
+$wooFormButton_hoverColor: #fff;
+$wooQty_fontSize: 20px;
+$wooForm_fontSize: 16px;
+
+// Tabs
+
+$tabs_backgroundColor: #f5f5f5;
+$tabs_linkColor: #000;
+$tabs_linkHoverColor: #0073e5;
+$tabs_borderColor: #eee;
+$tabsSidebar_borderColor: #eee;;
+$tabsSidebar_backgroundColor: #fff;
+
+// Cart
+$cartBorder_color: #eee;
+$cart_fontSize: 18px;
+
+// Product Page
+
+$productPrice_color: #0073e5;
+
+// Payment Page
+
+$payment_backgroundColor: #f5f5f5;
+$paymentBox_backgroundColor: #eee;
+$paymentBorder_backgroundColor: #eee;
+
+// Account 
+$wooAccountAddress_fontSize: 26px;
+$wooAccount_navigationBorder: #eee;
+$wooAccount_navigationActiveLinkcolor: #333;
+
+// Breadcrumb
+$breadcrumb_fontSize: 18px;
+$breadcrumb_linkColor: #000;
+$breadcrumb_linkHover: #0073e5;
+
+// Misc
+$wooError_backgroundColor: #fff;
+$wooError_borderColor: #0073e5;
+$wooError_beforeColor: #0073e5;
+
+// Woo Recent Reviews
+$wooRecent_fontSize: 12px;
+
+// Woo Filter
+$wooFilter_fontSize: 16px;
+$wooFilter_backgroundColor: #eee;
+$wooFilter_priceSliderBackground: #0073e5;
+$wooFilter_color: #0073e5;

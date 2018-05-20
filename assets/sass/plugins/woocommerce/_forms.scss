@@ -1,0 +1,102 @@
+/* WooCommerce Forms
+---------------------------------------------------------------------------------------------------- */
+
+.woocommerce {
+
+    a.button,
+    a.button.alt,
+    button.button,
+    button.button.alt,
+    input.button,
+    input.button.alt,
+    input.button[type="submit"],
+    #respond input#submit,
+    #respond input#submit.alt {
+        background-color: $wooFormButton_backgroundColor;
+        border: 0;
+        border-radius: 0;
+        color: $wooFormButton_color;
+        cursor: pointer;
+        @include rem( font-size, $wooForm_fontSize );
+        font-weight: 600;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        white-space: normal;
+        width: auto;
+    }
+
+    a.button:focus,
+    a.button:hover,
+    a.button.alt:focus,
+    a.button.alt:hover,
+    button.button:focus,
+    button.button:hover,
+    button.button.alt:focus,
+    button.button.alt:hover,
+    input.button:focus,
+    input.button:hover,
+    input.button.alt:focus,
+    input.button.alt:hover,
+    input[type="submit"]:focus,
+    input[type="submit"]:hover,
+    #respond input#submit:focus,
+    #respond input#submit:hover,
+    #respond input#submit.alt:focus,
+    #respond input#submit.alt:hover {
+        background-color: $wooFormButton_hoverBackgroundColor;
+        color: $wooFormButton_hoverColor;
+    }
+
+    #reviews #comment {
+        height: 150px;
+    }
+
+    .quantity .qty {
+        @include rem( font-size, $wooQty_fontSize );
+        line-height: 1.5;
+        margin-right: 5px;
+        padding: 12px 5px;
+        width: 70px;
+    }
+
+    form .form-row input.input-text,
+    form .form-row textarea {
+        line-height: 1.5;
+        padding: 8px 20px;
+    }
+
+    .coupon {
+        line-height: 1;
+
+        .input-text {
+            height: 48px;
+        }
+    }
+    
+}
+
+.woocommerce-cart table.cart td.actions .coupon .input-text,
+.woocommerce-checkout table.cart td.actions .coupon .input-text,
+#add_payment_method table.cart td.actions .coupon .input-text {
+	border-color: #eee;
+	padding: 5px 20px;
+	width: 150px;
+}
+
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register,
+.woocommerce form .form-row .select2-container,
+.woocommerce form .form-row.woocommerce-validated input.input-text,
+.woocommerce form .form-row.woocommerce-validated select,
+.woocommerce form .form-row.woocommerce-validated .select2-container {
+	border-color: #eee;
+	border-radius: 0;
+}
+
+.woocommerce-cart table.cart input,
+.woocommerce-checkout table.cart input,
+#add_payment_method table.cart input {
+	vertical-align: top;
+}

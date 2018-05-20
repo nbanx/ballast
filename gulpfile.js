@@ -110,3 +110,36 @@ gulp.task('styles', gulp.series('postcss', 'cssminify', 'sass-lint'));
 gulp.task('watch', function () {
 	gulp.watch('assets/sass/**/*.scss', gulp.series('styles'));
 });
+
+// Post CSS
+gulp.task('woocss', function(){
+
+    return gulp.src('assets/sass/plugins/woocommerce/index.scss')
+
+        .pipe(plumber({
+            errorHandler: handleError
+        }))
+
+        .pipe( sourcemaps.init())
+
+        .pipe( sass({
+            errLogToConsole: true,
+            outputStyle: 'expanded' // Options: nested, expanded, compact, compressed
+        }))
+
+        .pipe(postcss([
+            autoprefixer({
+                browsers: ['last 2 versions']
+            })
+        ]))
+
+        .pipe(sourcemaps.write())
+
+        .pipe(rename('woocommerce.css'))
+
+        .pipe( gulp.dest('./assets/css'))
+
+        .pipe(notify({
+            message: 'WooCommerce styles are built.'
+        }));
+});

@@ -1,0 +1,59 @@
+/* WooCommerce Cart Page
+---------------------------------------------------------------------------------------------------- */
+
+.woocommerce table.shop_table,
+.woocommerce table.shop_table td {
+	border-color: $cartBorder_color;
+	border-radius: 0;
+	line-height: 1.75;
+	word-break: normal;
+}
+
+.woocommerce-cart {
+
+    table.cart {
+        line-height: 1.75;
+
+        td {
+            @include rem( font-size, $cart_fontSize );
+            padding: 10px 12px;
+        }
+        
+        .product-thumbnail {
+            min-width: 56px;
+        }
+
+        th.product-name {
+            min-width: 140px;
+        }
+    }
+
+    td.product-name dl.variation dd {
+        margin-left: 20px;
+    }
+}
+
+.woocommerce table.shop_table .order-number {
+	min-width: 75px;
+}
+
+.woocommerce-cart table.cart th.product-price,
+.woocommerce-cart table.cart th.product-quantity,
+.woocommerce-cart table.cart th.product-subtotal,
+.woocommerce-checkout-review-order-table th.product-total {
+	min-width: 110px;
+}
+
+.woocommerce table.shop_table td.actions {
+	padding-top: 15px;
+}
+
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+	@include rem( font-size, $cart_fontSize );
+}
+
+.woocommerce-cart table.cart img,
+.woocommerce-checkout table.cart img,
+#add_payment_method table.cart img {
+	vertical-align: middle;
+}

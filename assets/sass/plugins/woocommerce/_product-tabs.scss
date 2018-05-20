@@ -1,0 +1,82 @@
+/* WooCommerce Product Tabs
+---------------------------------------------------------------------------------------------------- */
+
+.woocommerce div.product {
+    .woocomerce-tabs {
+
+        ul.tabs::before,
+        ul.tabs li {
+            border-color: $tabs_borderColor;
+        }
+        
+        ul.tabs li::after,
+        ul.tabs li::before {
+            display: none;
+        }
+        
+        ul.tabs li {
+            background-color: $tabs_backgroundColor;
+            border-radius: 0;
+            padding: 0;
+        }
+        
+        ul.tabs li a {
+            color: $tabs_linkColor;
+            padding: 0.5em 1em;
+        }
+        
+        ul.tabs li a:focus,
+        ul.tabs li a:hover {
+            color: $tabs_linkHoverColor;
+        }
+
+    }
+}
+
+/* Two Sidebar Layouts */
+
+.content-sidebar-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs,
+.sidebar-content-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs,
+.sidebar-sidebar-content.woocommerce div.product .woocommerce-tabs ul.tabs {
+	padding: 0;
+}
+
+.content-sidebar-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li,
+.sidebar-content-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li,
+.sidebar-sidebar-content.woocommerce div.product .woocommerce-tabs ul.tabs li {
+	display: block;
+	margin: 0;
+}
+
+.content-sidebar-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.sidebar-content-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.sidebar-sidebar-content.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+	display: block;
+}
+
+.content-sidebar-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li,
+.sidebar-content-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li,
+.sidebar-sidebar-content.woocommerce div.product .woocommerce-tabs ul.tabs li {
+	background-color: $tabsSidebar_backgroundColor;
+	border-bottom: 0;
+}
+
+.content-sidebar-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li:last-child,
+.sidebar-content-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li:last-child,
+.sidebar-sidebar-content.woocommerce div.product .woocommerce-tabs ul.tabs li:last-child {
+	border-bottom: 1px solid $tabsSidebar_borderColor;
+}
+
+.content-sidebar-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.sidebar-content-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.sidebar-sidebar-content.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+	border-bottom-color: $tabsSidebar_borderColor;
+}
+
+.content-sidebar-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li.active a::after,
+.sidebar-content-sidebar.woocommerce div.product .woocommerce-tabs ul.tabs li.active a::after,
+.sidebar-sidebar-content.woocommerce div.product .woocommerce-tabs ul.tabs li.active a::after {
+	content: "\f147";
+	float: right;
+	font-family: "dashicons";
+}
