@@ -1,6 +1,6 @@
 # ballast 
 
-Ballast is a child theme for the Genesis framework. The PHP and SASS files are arranged in modules for easy editing and accessibility. 
+Ballast is a SASS ready child theme for the Genesis framework. The PHP and SCSS files are arranged in modules for easy editing and accessibility. 
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ in the `autoload.php` file.
 
 Here are some of the useful Gulp tasks already set up for you. 
 
-- `postcss` Compile all of the SASS files
+- `postcss` Compile all of the SCSS files
 - `cssminify` Compresses the style.css file
 - `sass-lint` SASS linter
 - `styles` runs `postcss`, `cssminify` and `sass-lint`
