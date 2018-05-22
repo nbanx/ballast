@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nbanx/ballast.git"
+    "url": "git+https://github.com/trevorcaudill/ballast.git"
   },
   "author": "Trevor Caudill",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/nbanx/ballast/issues"
+    "url": "https://github.com/trevorcaudill/ballast/issues"
   },
-  "homepage": "https://github.com/nbanx/ballast#readme",
+  "homepage": "https://github.com/trevorcaudill/ballast#readme",
   "devDependencies": {
     "css-mqpacker": "^6.0.2",
     "gulp": "^4.0.0",
