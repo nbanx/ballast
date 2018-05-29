@@ -157,7 +157,7 @@ gulp.task('compressjs', function (cb) {
           gulp.src([
             'assets/js/responsive-menu.js',
             'assets/js/notice-update.js',
-            'assets/js/custom-scripts.js'
+            'assets/js/build/custom-scripts.js'
         ]),
           concat('scripts.js'),
           uglify(),
@@ -173,5 +173,5 @@ gulp.task('compressjs', function (cb) {
 
   // Script Watch
 gulp.task('watchjs', function () {
-	gulp.watch('assets/js/*.js', gulp.series('compressjs'));
+	gulp.watch('assets/js/build/*.js', gulp.series('compressjs'));
 });
